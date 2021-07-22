@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 142477955121030544, guid: 297cb9a6fdadc4174abba4eaf7230cae, type: 3}
       propertyPath: m_TagString
-      value: 0bstacles
+      value: Obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 142477955121030548, guid: 297cb9a6fdadc4174abba4eaf7230cae, type: 3}
       propertyPath: m_RootOrder
@@ -294,7 +294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 142477955121030544, guid: 297cb9a6fdadc4174abba4eaf7230cae, type: 3}
       propertyPath: m_TagString
-      value: 0bstacles
+      value: Obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 142477955121030548, guid: 297cb9a6fdadc4174abba4eaf7230cae, type: 3}
       propertyPath: m_RootOrder
@@ -359,7 +359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 142477955121030544, guid: 297cb9a6fdadc4174abba4eaf7230cae, type: 3}
       propertyPath: m_TagString
-      value: 0bstacles
+      value: Obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 142477955121030548, guid: 297cb9a6fdadc4174abba4eaf7230cae, type: 3}
       propertyPath: m_RootOrder
@@ -507,7 +507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 142477955121030544, guid: 297cb9a6fdadc4174abba4eaf7230cae, type: 3}
       propertyPath: m_TagString
-      value: 0bstacles
+      value: Obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 142477955121030548, guid: 297cb9a6fdadc4174abba4eaf7230cae, type: 3}
       propertyPath: m_RootOrder
@@ -667,7 +667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 142477955121030544, guid: 297cb9a6fdadc4174abba4eaf7230cae, type: 3}
       propertyPath: m_TagString
-      value: 0bstacles
+      value: Obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 142477955121030548, guid: 297cb9a6fdadc4174abba4eaf7230cae, type: 3}
       propertyPath: m_RootOrder
