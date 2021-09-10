@@ -17,8 +17,19 @@
 - What is a Rigidbody and what is a Character Controller and what are the pros and cons of using each
 - What is a Quaternion
 
+----
+### **Gameplay**
+
+<div align="center"><img src="images/Player1.png" width="300">
+---
+<div align="center"><img src="images/Player2.png" width="300">
+---
+<div align="center"><img src="images/Player3.png" width="300">
+
+-----
 
 <!-- Contact info -->
+<div align="left">
 
 ## Author
 - **Juliana Monroy** <img src="https://github.com/deut-erium/deut-erium/blob/master/assets/gandalf_parrot.gif" width="30px"/>
