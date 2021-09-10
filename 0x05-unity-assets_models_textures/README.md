@@ -20,11 +20,11 @@
 ----
 ### **Gameplay**
 
-<div align="center"><img src="images/Player1.png" width="300">
----
-<div align="center"><img src="images/Player2.png" width="300">
----
-<div align="center"><img src="images/Player3.png" width="300">
+<div align="center"><img src="images/Player1.png" width="500">
+----
+<div align="center"><img src="images/Player2.png" width="500">
+----
+<div align="center"><img src="images/Player3.png" width="500">
 
 -----
 
