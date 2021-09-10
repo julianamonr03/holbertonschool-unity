@@ -1,0 +1,743 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/julianamonroy/prueba/Holberton-javascript/holbertonschool-unity/0x05-unity-assets_models_textures/0x05-unity-assets_models_textures
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51475
+Successfully changed project path to: /Users/julianamonroy/prueba/Holberton-javascript/holbertonschool-unity/0x05-unity-assets_models_textures/0x05-unity-assets_models_textures
+/Users/julianamonroy/prueba/Holberton-javascript/holbertonschool-unity/0x05-unity-assets_models_textures/0x05-unity-assets_models_textures
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 98.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/julianamonroy/prueba/Holberton-javascript/holbertonschool-unity/0x05-unity-assets_models_textures/0x05-unity-assets_models_textures/Assets
+GfxDevice: creating device client; threaded=0
+2021-09-08 20:52:24.891 Unity[2721:186269] Color LCD preferred device: Intel(R) UHD Graphics 617 (low power)
+2021-09-08 20:52:24.891 Unity[2721:186269] Metal devices available: 1
+2021-09-08 20:52:24.892 Unity[2721:186269] 0: Intel(R) UHD Graphics 617 (low power)
+2021-09-08 20:52:24.892 Unity[2721:186269] Using device Intel(R) UHD Graphics 617 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 617
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56721
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005629 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 128.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.387 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6388ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1712ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (626ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (184ms)
+			SetupLoadedEditorAssemblies (707ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017767 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.475 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2477ms)
+		BeginReloadAssembly (457ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1856ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (580ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (128ms)
+			SetupLoadedEditorAssemblies (696ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (551ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.0 MB.
+System memory in use after: 135.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 3.488620 ms (FindLiveObjects: 0.375665 ms CreateObjectMapping: 0.207646 ms MarkObjects: 2.709190 ms  DeleteObjects: 0.193887 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Materials/Skyboxes/CloudyCrown_02_Evening/CloudyCrown_Evening.mat
+  artifactKey: Guid(77715b8b6b248994891d3ccad1ad330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_02_Evening/CloudyCrown_Evening.mat using Guid(77715b8b6b248994891d3ccad1ad330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961aee239c3f97dc99c5078f12cef366') in 3.468439 seconds 
+  Import took 3.480641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.019960 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/CloudyCrown_Midnight.mat
+  artifactKey: Guid(ceb0a3ed2cb53a94fa21843cc958c52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/CloudyCrown_Midnight.mat using Guid(ceb0a3ed2cb53a94fa21843cc958c52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec2b015da75f2eeb2b0172a8bdf1a45') in 0.088075 seconds 
+  Import took 0.098473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.825515 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/CloudyCrown_Daybreak.mat
+  artifactKey: Guid(3930fc89a28b29746bde6a2389a513e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/CloudyCrown_Daybreak.mat using Guid(3930fc89a28b29746bde6a2389a513e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16f035477eb6489f1f92562fe7cc4ca') in 0.091990 seconds 
+  Import took 0.107822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.736844 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/CloudyCrown_Sunset.mat
+  artifactKey: Guid(169a1b8f06c17c84e8de491f2bfef986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/CloudyCrown_Sunset.mat using Guid(169a1b8f06c17c84e8de491f2bfef986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6df0a2be2fa5ad42a355d524034263') in 0.101165 seconds 
+  Import took 0.111783 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.448 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1448ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1222ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (481ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.4 MB.
+System memory in use after: 143.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1877.
+Total: 2.731511 ms (FindLiveObjects: 0.239358 ms CreateObjectMapping: 0.068091 ms MarkObjects: 2.345513 ms  DeleteObjects: 0.077109 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 159.699378 seconds.
+  path: Assets/Materials/Models/Flag (1).fbx
+  artifactKey: Guid(5ac973ffac47049669181d4bfbbffcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Models/Flag (1).fbx using Guid(5ac973ffac47049669181d4bfbbffcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c632c682cb372e297617dbe852f4cb5') in 0.735361 seconds 
+  Import took 0.743650 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.635 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1637ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (142ms)
+		EndReloadAssembly (1304ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (497ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (428ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.1 MB.
+System memory in use after: 148.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1884.
+Total: 3.043895 ms (FindLiveObjects: 0.458789 ms CreateObjectMapping: 0.092658 ms MarkObjects: 2.358835 ms  DeleteObjects: 0.132143 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4444.538315 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(be74fc4a728f34104b2b555df35184ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(be74fc4a728f34104b2b555df35184ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e6b108c77e8eaa2eb298bb168a2299') in 0.009023 seconds 
+  Import took 0.016342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001752 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(be74fc4a728f34104b2b555df35184ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(be74fc4a728f34104b2b555df35184ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e6b108c77e8eaa2eb298bb168a2299') in 0.002788 seconds 
+  Import took 0.012198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.831249 seconds.
+  path: Assets/Textures/Flag.png
+  artifactKey: Guid(e39decdba700f4c278d0477f052b16c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flag.png using Guid(e39decdba700f4c278d0477f052b16c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256cb1a40bc4bad92b11bb48326dcd87') in 1.864778 seconds 
+  Import took 1.873630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.014608 seconds.
+  path: Assets/Materials/Flag.mat
+  artifactKey: Guid(f64d131095acb40a98d81f66b2c8d4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Flag.mat using Guid(f64d131095acb40a98d81f66b2c8d4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e400a92cd4846c3d735d99c812631d5') in 0.092688 seconds 
+  Import took 0.098444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.004983 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Back.png
+  artifactKey: Guid(ab78a862493ed7f42a9d16bc994e6697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Back.png using Guid(ab78a862493ed7f42a9d16bc994e6697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d7d7bb4f47b5b7adf778f1f01efc96') in 0.024405 seconds 
+  Import took 0.029997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Front.png
+  artifactKey: Guid(32dd115bed46a474ab32a88684606180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Front.png using Guid(32dd115bed46a474ab32a88684606180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9d67e7c84a52637d2b8a4006800e47') in 0.018102 seconds 
+  Import took 0.024696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_02_Evening/Textures/CloudyCrown_Evening_Right.png
+  artifactKey: Guid(f33d9e3a86071394c83b568257570dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_02_Evening/Textures/CloudyCrown_Evening_Right.png using Guid(f33d9e3a86071394c83b568257570dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b44d517f0996fb77e9ac3e5f992dbb') in 0.024490 seconds 
+  Import took 0.029916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Back.png
+  artifactKey: Guid(ab78a862493ed7f42a9d16bc994e6697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Back.png using Guid(ab78a862493ed7f42a9d16bc994e6697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d7d7bb4f47b5b7adf778f1f01efc96') in 0.018850 seconds 
+  Import took 0.024179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Down.png
+  artifactKey: Guid(bf4af9078f5bbcc42911f76a84aaa1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Down.png using Guid(bf4af9078f5bbcc42911f76a84aaa1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a938669070175b11d41a62b9213147e') in 0.021421 seconds 
+  Import took 0.027726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000796 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Up.png
+  artifactKey: Guid(2037768ff8c6b6845a0eac7217b4ba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Up.png using Guid(2037768ff8c6b6845a0eac7217b4ba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a5ffd4469dd44fd38076d2e43a27e7') in 0.021884 seconds 
+  Import took 0.029044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_02_Evening/Textures/CloudyCrown_Evening_Back.png
+  artifactKey: Guid(87bee338d047997489ce40bc10f18466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_02_Evening/Textures/CloudyCrown_Evening_Back.png using Guid(87bee338d047997489ce40bc10f18466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a61dc9849d2e314a9c87b483bda0be0') in 0.028081 seconds 
+  Import took 0.033585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_02_Evening/Textures/CloudyCrown_Evening_Front.png
+  artifactKey: Guid(1333dafd22b43974091d9c55f2169cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_02_Evening/Textures/CloudyCrown_Evening_Front.png using Guid(1333dafd22b43974091d9c55f2169cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebeffd6c12cd7765eb57f1bdd633b143') in 0.021451 seconds 
+  Import took 0.028952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000846 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_02_Evening/Textures/CloudyCrown_Evening_Down.png
+  artifactKey: Guid(1fe26ef1655e3424b8a9a77e4ef0523d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_02_Evening/Textures/CloudyCrown_Evening_Down.png using Guid(1fe26ef1655e3424b8a9a77e4ef0523d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfd0d373ef292799758b9386a5ea041') in 0.020571 seconds 
+  Import took 0.027046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_02_Evening/Textures/CloudyCrown_Evening_Left.png
+  artifactKey: Guid(90494e0797812be488f2fbe703461966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_02_Evening/Textures/CloudyCrown_Evening_Left.png using Guid(90494e0797812be488f2fbe703461966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee169ec800628e1d18e9fd56dfce2182') in 0.022217 seconds 
+  Import took 0.029808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000761 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_02_Evening/Textures/CloudyCrown_Evening_Up.png
+  artifactKey: Guid(3157d3aa6a8bd694e9cc4c05e3303c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_02_Evening/Textures/CloudyCrown_Evening_Up.png using Guid(3157d3aa6a8bd694e9cc4c05e3303c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c45a52fe224bf16ff03a4464eb44183') in 0.035175 seconds 
+  Import took 0.042114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Left.png
+  artifactKey: Guid(4bc70c48f58c2c44bb60f3c8719f38c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Left.png using Guid(4bc70c48f58c2c44bb60f3c8719f38c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2417d169bb8b5ecbd6b4c97c074530') in 0.033638 seconds 
+  Import took 0.040219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Right.png
+  artifactKey: Guid(a233316cd5c3fd84bbad0597bd05102f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_05_Daybreak/Textures/CloudyCrown_Daybreak_Right.png using Guid(a233316cd5c3fd84bbad0597bd05102f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4568e3d2d6885d5bfb298a28f6c3e355') in 0.022583 seconds 
+  Import took 0.031631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.405273 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Back.png
+  artifactKey: Guid(da973bcda49f771409235bfe5c155ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Back.png using Guid(da973bcda49f771409235bfe5c155ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1cf73840b9ccdf765495146555c0ed') in 0.015401 seconds 
+  Import took 0.020423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Down.png
+  artifactKey: Guid(c78764efdf38d934da9064e52fdd1357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Down.png using Guid(c78764efdf38d934da9064e52fdd1357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c88c3701e51070efe4c2946728fd70') in 0.014489 seconds 
+  Import took 0.018947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Front.png
+  artifactKey: Guid(6c2f5f53cf8256c42b90da9a536584c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Front.png using Guid(6c2f5f53cf8256c42b90da9a536584c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4d0945574cbd3f3909acd8621e3cb0') in 0.025298 seconds 
+  Import took 0.031059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.350679 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Left.png
+  artifactKey: Guid(d349eb2db22ec0746a14ade881ac087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Left.png using Guid(d349eb2db22ec0746a14ade881ac087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d052c289205c998238c879f31a7edf') in 0.017150 seconds 
+  Import took 0.022703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Right.png
+  artifactKey: Guid(8c84ddb32342f7a409915f46705fcc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Right.png using Guid(8c84ddb32342f7a409915f46705fcc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9355c0b7ac930ece14c18b8b8615914') in 0.015410 seconds 
+  Import took 0.019820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Up.png
+  artifactKey: Guid(3af6f93d7b7b2b842ae6ac2a4e817fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_03_Midnight/Textures/CloudyCrown_Midnight_Up.png using Guid(3af6f93d7b7b2b842ae6ac2a4e817fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090a4bac1dbb5711f68f78515d3fc695') in 0.027692 seconds 
+  Import took 0.032508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121138 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Back.png
+  artifactKey: Guid(fb83d65eeed886840908f1c4482ffbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Back.png using Guid(fb83d65eeed886840908f1c4482ffbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485a54bc88e995e90eef712551e866a1') in 0.028026 seconds 
+  Import took 0.034247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Left.png
+  artifactKey: Guid(3a1c3cd9f2f146245be4af3a1123a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Left.png using Guid(3a1c3cd9f2f146245be4af3a1123a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f843e6dc46899cf410dff7533d6d3c55') in 0.021657 seconds 
+  Import took 0.028465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Front.png
+  artifactKey: Guid(438f35e5e8d7c0c42aee582a2e2ec8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Front.png using Guid(438f35e5e8d7c0c42aee582a2e2ec8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbadd8a7d120d117366205111f3307a6') in 0.027376 seconds 
+  Import took 0.033109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Back.png
+  artifactKey: Guid(fb83d65eeed886840908f1c4482ffbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Back.png using Guid(fb83d65eeed886840908f1c4482ffbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485a54bc88e995e90eef712551e866a1') in 0.016112 seconds 
+  Import took 0.020951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Right.png
+  artifactKey: Guid(7f934c5ce832dfb4991233d48e1cd7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Right.png using Guid(7f934c5ce832dfb4991233d48e1cd7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084046fe9e602993b39b99e551a744c1') in 0.025203 seconds 
+  Import took 0.030906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Down.png
+  artifactKey: Guid(dd10416b224641b459fe04b5eb7aec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Down.png using Guid(dd10416b224641b459fe04b5eb7aec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06df912c78099f07eee3c94871630b15') in 0.020282 seconds 
+  Import took 0.024549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Up.png
+  artifactKey: Guid(53897097b1cb7644eb130bc157b99eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Up.png using Guid(53897097b1cb7644eb130bc157b99eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faf36dd550d63f1d4a2518ed71e69da') in 0.021863 seconds 
+  Import took 0.029847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002365 seconds.
+  path: Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Right.png
+  artifactKey: Guid(7f934c5ce832dfb4991233d48e1cd7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/CloudyCrown_04_Sunset/Textures/CloudyCrown_Sunset_Right.png using Guid(7f934c5ce832dfb4991233d48e1cd7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084046fe9e602993b39b99e551a744c1') in 0.016019 seconds 
+  Import took 0.023146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.159565 seconds.
+  path: Assets/Materials/Skyboxes/FarlandSkies/Demo/Textures/grid_black_128.psd
+  artifactKey: Guid(3833a7e6653de9049bfaf69e25deaf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/FarlandSkies/Demo/Textures/grid_black_128.psd using Guid(3833a7e6653de9049bfaf69e25deaf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabec17c3c4b77654591c96b4a4ddd8b') in 1.599516 seconds 
+  Import took 1.606811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.712592 seconds.
+  path: Assets/Materials/Skyboxes/FarlandSkies/Demo/Materials/GroundTexture.mat
+  artifactKey: Guid(6e3f986af96b0864f9b448013dd16ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/FarlandSkies/Demo/Materials/GroundTexture.mat using Guid(6e3f986af96b0864f9b448013dd16ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f99b667e46f71a3b091e37f44f086b') in 0.026301 seconds 
+  Import took 0.031757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003658 seconds.
+  path: Assets/Materials/Skyboxes/FarlandSkies/Demo/Materials/GroundTexture.mat
+  artifactKey: Guid(6e3f986af96b0864f9b448013dd16ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skyboxes/FarlandSkies/Demo/Materials/GroundTexture.mat using Guid(6e3f986af96b0864f9b448013dd16ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f99b667e46f71a3b091e37f44f086b') in 0.024144 seconds 
+  Import took 0.028432 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013242 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.613 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1614ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1297ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (524ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.9 MB.
+System memory in use after: 157.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1890.
+Total: 2.766563 ms (FindLiveObjects: 0.265270 ms CreateObjectMapping: 0.072360 ms MarkObjects: 2.351130 ms  DeleteObjects: 0.075854 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 244.242304 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(3553286f117cb45eab71154629f61040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(3553286f117cb45eab71154629f61040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66eb78fb9432b9129c9315be367f163f') in 1.354091 seconds 
+  Import took 1.359102 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007767 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.575 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1575ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (1302ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (427ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.4 MB.
+System memory in use after: 161.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1893.
+Total: 2.602600 ms (FindLiveObjects: 0.191837 ms CreateObjectMapping: 0.052942 ms MarkObjects: 2.218020 ms  DeleteObjects: 0.138601 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 108.313281 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(3553286f117cb45eab71154629f61040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(3553286f117cb45eab71154629f61040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cc6cef5d3ee84b62c3ee8d6f84ef45') in 0.004772 seconds 
+  Import took 0.009135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.843322 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(3553286f117cb45eab71154629f61040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(3553286f117cb45eab71154629f61040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cc6cef5d3ee84b62c3ee8d6f84ef45') in 0.002592 seconds 
+  Import took 0.006961 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016639 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.775 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1776ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (1376ms)
+			LoadAssemblies (233ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (523ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.6 MB.
+System memory in use after: 161.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1896.
+Total: 3.793405 ms (FindLiveObjects: 0.234065 ms CreateObjectMapping: 0.071698 ms MarkObjects: 3.391704 ms  DeleteObjects: 0.094502 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
